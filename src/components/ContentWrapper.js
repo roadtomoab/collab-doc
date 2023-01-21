@@ -1,6 +1,6 @@
 import styles from "./ContentWrapper.module.css";
 
-function ContentWrapper() {
+function ContentWrapper({ children }) {
     return (
         <div className={styles.wrapper}>{children}</div>
     )
